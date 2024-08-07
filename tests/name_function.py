@@ -7,6 +7,7 @@ data_path = r"C:\Users\Владимир\PycharmProjects\Open-change-txt\data"
 
 
 def name_function(name_list: str) -> str:
+    '''Функция разделения списка на английские и русские имена'''
     file_path = os.path.join(data_path, name_list)
 
     with open(file_path, "r", encoding="utf-8") as file:
